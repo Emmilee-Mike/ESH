@@ -1,4 +1,28 @@
-.h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    height: 150vh;
+}
+#main {
+    color: red;
+    text-align: center;
+    position: fixed;
+    border: 8px solid brown;
+    margin: 8px;
+    padding: 8px;
+    text-align: left;
+    background-color: black;
+    top: 0;
+    left: 0;
+    
+
+}
+
+#build {
+    background-color: rgba(0, 255, 255, 0.5);
+    color: blue;
+    text-align: center;
+    border: 100px;
+    margin: 50px;
+    padding: 50px;
 }
