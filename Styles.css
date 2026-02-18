@@ -2,18 +2,21 @@
 
 body {
     height: 150vh;
+    background-color: rgba(0, 0, 255, 0.4);
+    
 }
 #main {
     color: red;
-    text-align: center;
+    text-align: left;
     position: fixed;
     border: 8px solid brown;
-    margin: 8px;
+    margin: 0px;
     padding: 8px;
     text-align: left;
     background-color: black;
     top: 0;
     left: 0;
+    box-sizing: border-box;
     
 
 }
@@ -22,7 +25,25 @@ body {
     background-color: rgba(0, 255, 255, 0.5);
     color: blue;
     text-align: center;
-    border: 100px;
-    margin: 50px;
+    border: 10px;
+    margin: 70px 0px;
     padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+#intro {
+    text-align: center;
+    font-size: larger;
+    font-style: normal;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+
 }
